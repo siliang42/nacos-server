@@ -1,0 +1,44 @@
+2018-11-03 14:03:07,516 INFO [long-pulling] client count 0
+
+2018-11-03 14:03:17,518 INFO [long-pulling] client count 0
+
+2018-11-03 14:03:18,335 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2018-11-03 14:03:18,342 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2018-11-03 14:03:27,520 INFO [long-pulling] client count 0
+
+2018-11-03 14:03:28,338 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2018-11-03 14:03:28,344 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2018-11-03 14:03:37,522 INFO [long-pulling] client count 0
+
+2018-11-03 14:03:38,341 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2018-11-03 14:03:38,346 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2018-11-03 14:03:47,523 INFO [long-pulling] client count 0
+
+2018-11-03 14:03:48,343 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2018-11-03 14:03:48,348 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2018-11-03 14:03:57,524 INFO [long-pulling] client count 0
+
+2018-11-03 14:03:58,345 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2018-11-03 14:03:58,350 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2018-11-03 14:04:07,527 INFO [long-pulling] client count 0
+
+2018-11-03 14:04:08,346 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2018-11-03 14:04:08,351 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+
+2018-11-03 14:04:17,528 INFO [long-pulling] client count 0
+
+2018-11-03 14:04:18,347 INFO notifySingleServiceThreadPool-java.util.concurrent.ScheduledThreadPoolExecutor, toNotifyTaskSize=0
+
+2018-11-03 14:04:18,352 INFO groupCount=0, subscriberClientCount=0, subscriberCount=0
+

@@ -1,0 +1,78 @@
+2018-11-03 14:02:54,794 INFO Switch init start!
+
+2018-11-03 14:02:54,800 INFO add listener for switch or domain meta. 
+
+2018-11-03 14:02:54,888 INFO add listener for switch or domain meta. 
+
+2018-11-03 14:03:09,090 INFO initializing Raft sub-system
+
+2018-11-03 14:03:09,091 INFO raft notifier started
+
+2018-11-03 14:03:09,104 INFO finish loading all datums, size: 0 cost 7ms.
+
+2018-11-03 14:03:09,104 INFO cache loaded, peer count: 1, datum count: 0, current term:0
+
+2018-11-03 14:03:09,104 INFO finish to load data from disk,cost: 9 ms.
+
+2018-11-03 14:03:09,109 INFO timer started: leader timeout ms: 15000; heart-beat timeout ms: 5000
+
+2018-11-03 14:03:13,124 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:13,167 INFO raw beat data size: 180, size of compressed data: 139
+
+2018-11-03 14:03:18,181 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:18,182 INFO raw beat data size: 180, size of compressed data: 141
+
+2018-11-03 14:03:23,196 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:23,197 INFO raw beat data size: 180, size of compressed data: 140
+
+2018-11-03 14:03:28,211 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:28,212 INFO raw beat data size: 180, size of compressed data: 143
+
+2018-11-03 14:03:33,227 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:33,228 INFO raw beat data size: 180, size of compressed data: 142
+
+2018-11-03 14:03:38,239 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:38,240 INFO raw beat data size: 180, size of compressed data: 142
+
+2018-11-03 14:03:43,251 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:43,251 INFO raw beat data size: 180, size of compressed data: 138
+
+2018-11-03 14:03:48,266 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:48,267 INFO raw beat data size: 180, size of compressed data: 141
+
+2018-11-03 14:03:53,284 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:53,285 INFO raw beat data size: 180, size of compressed data: 140
+
+2018-11-03 14:03:58,299 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:03:58,300 INFO raw beat data size: 180, size of compressed data: 145
+
+2018-11-03 14:04:03,315 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:04:03,316 INFO raw beat data size: 180, size of compressed data: 143
+
+2018-11-03 14:04:08,329 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:04:08,330 INFO raw beat data size: 180, size of compressed data: 138
+
+2018-11-03 14:04:13,344 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:04:13,345 INFO raw beat data size: 180, size of compressed data: 145
+
+2018-11-03 14:04:18,362 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:04:18,363 INFO raw beat data size: 180, size of compressed data: 142
+
+2018-11-03 14:04:23,379 INFO [RAFT] send beat with 0 keys.
+
+2018-11-03 14:04:23,379 INFO raw beat data size: 180, size of compressed data: 139
+

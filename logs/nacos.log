@@ -1,0 +1,352 @@
+2018-11-03 14:02:52,188 INFO Starting Nacos on LAPTOP-M62QC8LM with PID 10252 (E:\jiayi.nie\projects\nacos-server\target\nacos-server.jar started by CONCENTRATE in E:\jiayi.nie\projects\nacos-server\bin)
+
+2018-11-03 14:02:52,191 INFO The following profiles are active: standalone
+
+2018-11-03 14:02:52,255 INFO Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31b7dea0: startup date [Sat Nov 03 14:02:52 CST 2018]; root of context hierarchy
+
+2018-11-03 14:02:54,300 ERROR An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+
+2018-11-03 14:02:54,529 INFO Tomcat initialized with port(s): 8848 (http)
+
+2018-11-03 14:02:54,597 ERROR An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+
+2018-11-03 14:02:54,597 INFO Initializing ProtocolHandler ["http-nio-8848"]
+
+2018-11-03 14:02:54,610 INFO Starting service [Tomcat]
+
+2018-11-03 14:02:54,610 INFO Starting Servlet Engine: Apache Tomcat/8.5.34
+
+2018-11-03 14:02:54,621 ERROR An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+
+2018-11-03 14:02:54,732 INFO Initializing Spring embedded WebApplicationContext
+
+2018-11-03 14:02:54,732 INFO Root WebApplicationContext: initialization completed in 2477 ms
+
+2018-11-03 14:02:54,980 INFO Mapping filter: 'characterEncodingFilter' to: [/*]
+
+2018-11-03 14:02:54,981 INFO Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+
+2018-11-03 14:02:54,981 INFO Mapping filter: 'httpPutFormContentFilter' to: [/*]
+
+2018-11-03 14:02:54,981 INFO Mapping filter: 'requestContextFilter' to: [/*]
+
+2018-11-03 14:02:54,981 INFO Mapping filter: 'authFilter' to urls: [/api/*, /raft/*]
+
+2018-11-03 14:02:54,981 INFO Mapping filter: 'distroFilter' to urls: [/*]
+
+2018-11-03 14:02:54,981 INFO Mapping filter: 'webFilter' to urls: [/*]
+
+2018-11-03 14:02:54,981 INFO Servlet dispatcherServlet mapped to [/]
+
+2018-11-03 14:03:08,468 INFO Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2018-11-03 14:03:08,681 INFO Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@31b7dea0: startup date [Sat Nov 03 14:02:52 CST 2018]; root of context hierarchy
+
+2018-11-03 14:03:08,771 INFO Mapped "{[/v1/console/namespaces],methods=[GET],params=[show=all]}" onto public com.alibaba.nacos.console.model.NamespaceAllInfo com.alibaba.nacos.console.controller.NamespaceController.getNamespace(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String)
+
+2018-11-03 14:03:08,773 INFO Mapped "{[/v1/console/namespaces],methods=[PUT]}" onto public java.lang.Boolean com.alibaba.nacos.console.controller.NamespaceController.editNamespace(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2018-11-03 14:03:08,773 INFO Mapped "{[/v1/console/namespaces],methods=[POST]}" onto public java.lang.Boolean com.alibaba.nacos.console.controller.NamespaceController.createNamespace(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2018-11-03 14:03:08,774 INFO Mapped "{[/v1/console/namespaces],methods=[DELETE]}" onto public java.lang.Boolean com.alibaba.nacos.console.controller.NamespaceController.deleteConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2018-11-03 14:03:08,774 INFO Mapped "{[/v1/console/namespaces],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.RestResult<java.util.List<com.alibaba.nacos.console.model.Namespace>> com.alibaba.nacos.console.controller.NamespaceController.getNamespaces(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2018-11-03 14:03:08,775 INFO Mapped "{[/v1/cs/capacity],methods=[POST]}" onto public com.alibaba.nacos.config.server.model.RestResult<java.lang.Boolean> com.alibaba.nacos.config.server.controller.CapacityController.updateCapacity(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.Integer,java.lang.Integer)
+
+2018-11-03 14:03:08,776 INFO Mapped "{[/v1/cs/capacity],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.RestResult<com.alibaba.nacos.config.server.model.capacity.Capacity> com.alibaba.nacos.config.server.controller.CapacityController.getCapacity(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String)
+
+2018-11-03 14:03:08,779 INFO Mapped "{[/v1/cs/communication/dataChange],methods=[GET]}" onto public java.lang.Boolean com.alibaba.nacos.config.server.controller.CommunicationController.notifyConfigInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+2018-11-03 14:03:08,779 INFO Mapped "{[/v1/cs/communication/watcherConfigs],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.SampleResult com.alibaba.nacos.config.server.controller.CommunicationController.getSubClientConfigByIp(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,org.springframework.ui.ModelMap) throws java.io.IOException,javax.servlet.ServletException,java.lang.Exception
+
+2018-11-03 14:03:08,779 INFO Mapped "{[/v1/cs/communication/configWatchers],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.SampleResult com.alibaba.nacos.config.server.controller.CommunicationController.getSubClientConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,org.springframework.ui.ModelMap) throws java.io.IOException,javax.servlet.ServletException,java.lang.Exception
+
+2018-11-03 14:03:08,781 INFO Mapped "{[/v1/cs/configs/listener],methods=[POST]}" onto public void com.alibaba.nacos.config.server.controller.ConfigController.listener(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+
+2018-11-03 14:03:08,782 INFO Mapped "{[/v1/cs/configs/listener],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.GroupkeyListenserStatus com.alibaba.nacos.config.server.controller.ConfigController.getListeners(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,int) throws java.lang.Exception
+
+2018-11-03 14:03:08,782 INFO Mapped "{[/v1/cs/configs],methods=[DELETE]}" onto public java.lang.Boolean com.alibaba.nacos.config.server.controller.ConfigController.deleteConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2018-11-03 14:03:08,782 INFO Mapped "{[/v1/cs/configs],methods=[GET],params=[show=all]}" onto public com.alibaba.nacos.config.server.model.ConfigAllInfo com.alibaba.nacos.config.server.controller.ConfigController.detailConfigInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2018-11-03 14:03:08,783 INFO Mapped "{[/v1/cs/configs],methods=[DELETE],params=[beta=true]}" onto public com.alibaba.nacos.config.server.model.RestResult<java.lang.Boolean> com.alibaba.nacos.config.server.controller.ConfigController.stopBeta(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+
+2018-11-03 14:03:08,783 INFO Mapped "{[/v1/cs/configs],methods=[GET],params=[search=accurate]}" onto public com.alibaba.nacos.config.server.model.Page<com.alibaba.nacos.config.server.model.ConfigInfo> com.alibaba.nacos.config.server.controller.ConfigController.searchConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+
+2018-11-03 14:03:08,784 INFO Mapped "{[/v1/cs/configs],methods=[GET],params=[beta=true]}" onto public com.alibaba.nacos.config.server.model.RestResult<com.alibaba.nacos.config.server.model.ConfigInfo4Beta> com.alibaba.nacos.config.server.controller.ConfigController.queryBeta(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+
+2018-11-03 14:03:08,784 INFO Mapped "{[/v1/cs/configs],methods=[POST]}" onto public java.lang.Boolean com.alibaba.nacos.config.server.controller.ConfigController.publishConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws com.alibaba.nacos.config.server.exception.NacosException
+
+2018-11-03 14:03:08,784 INFO Mapped "{[/v1/cs/configs],methods=[GET]}" onto public void com.alibaba.nacos.config.server.controller.ConfigController.getConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.io.IOException,javax.servlet.ServletException,com.alibaba.nacos.config.server.exception.NacosException
+
+2018-11-03 14:03:08,784 INFO Mapped "{[/v1/cs/configs/catalog],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.RestResult<com.alibaba.nacos.config.server.model.ConfigAdvanceInfo> com.alibaba.nacos.config.server.controller.ConfigController.getConfigAdvanceInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String)
+
+2018-11-03 14:03:08,785 INFO Mapped "{[/v1/cs/configs],methods=[GET],params=[search=blur]}" onto public com.alibaba.nacos.config.server.model.Page<com.alibaba.nacos.config.server.model.ConfigInfo> com.alibaba.nacos.config.server.controller.ConfigController.fuzzySearchConfig(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,int)
+
+2018-11-03 14:03:08,786 INFO Mapped "{[/v1/cs/health],methods=[GET]}" onto public java.lang.String com.alibaba.nacos.config.server.controller.HealthController.getHealth()
+
+2018-11-03 14:03:08,787 INFO Mapped "{[/v1/cs/history],methods=[GET],params=[search=accurate]}" onto public com.alibaba.nacos.config.server.model.Page<com.alibaba.nacos.config.server.model.ConfigHistoryInfo> com.alibaba.nacos.config.server.controller.HistoryController.listConfigHistory(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,org.springframework.ui.ModelMap)
+
+2018-11-03 14:03:08,787 INFO Mapped "{[/v1/cs/history],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.ConfigHistoryInfo com.alibaba.nacos.config.server.controller.HistoryController.getConfigHistoryInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.Long,org.springframework.ui.ModelMap)
+
+2018-11-03 14:03:08,787 INFO Mapped "{[/v1/cs/listener],methods=[GET]}" onto public com.alibaba.nacos.config.server.model.GroupkeyListenserStatus com.alibaba.nacos.config.server.controller.ListenerController.getAllSubClientConfigByIp(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,boolean,java.lang.String,int,org.springframework.ui.ModelMap) throws java.io.IOException,javax.servlet.ServletException,java.lang.Exception
+
+2018-11-03 14:03:08,788 INFO Mapped "{[/v1/cs/ops/localCache],methods=[POST]}" onto public java.lang.String com.alibaba.nacos.config.server.controller.OpsController.updateLocalCacheFromStore(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2018-11-03 14:03:08,789 INFO Mapped "{[/v1/ns/catalog/serviceDetail]}" onto public com.alibaba.nacos.naming.view.ServiceDetailView com.alibaba.nacos.naming.controllers.CatalogController.serviceDetail(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,790 INFO Mapped "{[/v1/ns/catalog/serviceList]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.CatalogController.serviceList(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,790 INFO Mapped "{[/v1/ns/catalog/services],methods=[GET]}" onto public java.util.List<com.alibaba.nacos.naming.pojo.ServiceDetailInfo> com.alibaba.nacos.naming.controllers.CatalogController.listDetail(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,790 INFO Mapped "{[/v1/ns/catalog/instanceList]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.CatalogController.instanceList(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,790 INFO Mapped "{[/v1/ns/cluster/update],methods=[POST]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.ClusterController.update(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,798 INFO Mapped "{[/v1/ns/instance],methods=[PUT]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.InstanceController.register(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,798 INFO Mapped "{[/v1/ns/instance/update],methods=[POST]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.InstanceController.update(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,798 INFO Mapped "{[/v1/ns/instance],methods=[DELETE]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.InstanceController.deregister(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,798 INFO Mapped "{[/v1/ns/instances || /v1/ns/instance/list],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.InstanceController.queryList(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,799 INFO Mapped "{[/v1/ns/instance],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.InstanceController.queryDetail(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,799 INFO Mapped "{[/v1/ns/getVersion]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getVersion(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+
+2018-11-03 14:03:08,799 INFO Mapped "{[/v1/ns/dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.dom(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2018-11-03 14:03:08,799 INFO Mapped "{[/v1/ns/pushState]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.pushState(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,799 INFO Mapped "{[/v1/ns/switches]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.switches(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,799 INFO Mapped "{[/v1/ns/clientBeat]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.clientBeat(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,799 INFO Mapped "{[/v1/ns/rt4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.rt4Dom(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,800 INFO Mapped "{[/v1/ns/deRegService]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.deRegService(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,800 INFO Mapped "{[/v1/ns/srvIPXT]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.srvIPXT(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,800 INFO Mapped "{[/v1/ns/ip4Dom2]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.ip4Dom2(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2018-11-03 14:03:08,801 INFO Mapped "{[/v1/ns/regDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.regDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,801 INFO Mapped "{[/v1/ns/regService]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.regService(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,801 INFO Mapped "{[/v1/ns/domCount]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.domCount(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,801 INFO Mapped "{[/v1/ns/ip4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.ip4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,801 INFO Mapped "{[/v1/ns/replaceDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.replaceDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,801 INFO Mapped "{[/v1/ns/remvDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.remvDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,802 INFO Mapped "{[/v1/ns/remvIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.remvIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,802 INFO Mapped "{[/v1/ns/replaceIP4Dom]}" onto public synchronized java.lang.String com.alibaba.nacos.naming.web.ApiCommands.replaceIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,802 INFO Mapped "{[/v1/ns/hello]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.hello(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,802 INFO Mapped "{[/v1/ns/srvAllIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.srvAllIP(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,802 INFO Mapped "{[/v1/ns/updateDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.updateDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,803 INFO Mapped "{[/v1/ns/updateSwitch]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.updateSwitch(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,803 INFO Mapped "{[/v1/ns/addIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.addIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,803 INFO Mapped "{[/v1/ns/getDomsByIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getDomsByIP(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,803 INFO Mapped "{[/v1/ns/onAddIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.onAddIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,803 INFO Mapped "{[/v1/ns/allDomNames]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.allDomNames(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,803 INFO Mapped "{[/v1/ns/serverStatus]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.serverStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,804 INFO Mapped "{[/v1/ns/domStatus]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.domStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,804 INFO Mapped "{[/v1/ns/checkStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.checkStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,804 INFO Mapped "{[/v1/ns/getAllChangeLog]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getAllChangeLog(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,804 INFO Mapped "{[/v1/ns/getDomString4MD5]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getDomString4MD5(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2018-11-03 14:03:08,804 INFO Mapped "{[/v1/ns/distroStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.distroStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,804 INFO Mapped "{[/v1/ns/getWeightsByIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getWeightsByIP(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,805 INFO Mapped "{[/v1/ns/metrics]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.metrics(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,805 INFO Mapped "{[/v1/ns/containerNotify]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.containerNotify(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,805 INFO Mapped "{[/v1/ns/searchDom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.searchDom(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,805 INFO Mapped "{[/v1/ns/responsible]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.responsible(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,805 INFO Mapped "{[/v1/ns/addCluster4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.addCluster4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,805 INFO Mapped "{[/v1/ns/domServeStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.domServeStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,806 INFO Mapped "{[/v1/ns/getHealthyServerList]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getHealthyServerList(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,806 INFO Mapped "{[/v1/ns/getResponsibleServer4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getResponsibleServer4Dom(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,806 INFO Mapped "{[/v1/ns/checkDataConsistence]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.checkDataConsistence(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,806 INFO Mapped "{[/v1/ns/updateClusterConf]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.updateClusterConf(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+
+2018-11-03 14:03:08,806 INFO Mapped "{[/v1/ns/reCalculateCheckSum4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.reCalculateCheckSum4Dom(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,807 INFO Mapped "{[/v1/ns/service/update],methods=[POST]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.ServiceController.update(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,807 INFO Mapped "{[/v1/ns/service/list],methods=[GET]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.controllers.ServiceController.list(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,807 INFO Mapped "{[/v1/ns/service/delete],methods=[DELETE]}" onto public java.lang.String com.alibaba.nacos.naming.controllers.ServiceController.removeService(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,812 INFO Mapped "{[/v1/ns/api/getVersion]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getVersion(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+
+2018-11-03 14:03:08,812 INFO Mapped "{[/v1/ns/api/dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.dom(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2018-11-03 14:03:08,812 INFO Mapped "{[/v1/ns/api/pushState]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.pushState(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,813 INFO Mapped "{[/v1/ns/api/switches]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.switches(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,813 INFO Mapped "{[/v1/ns/api/clientBeat]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.clientBeat(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,813 INFO Mapped "{[/v1/ns/api/rt4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.rt4Dom(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,813 INFO Mapped "{[/v1/ns/api/deRegService]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.deRegService(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,813 INFO Mapped "{[/v1/ns/api/srvIPXT]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.srvIPXT(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,813 INFO Mapped "{[/v1/ns/api/ip4Dom2]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.ip4Dom2(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2018-11-03 14:03:08,813 INFO Mapped "{[/v1/ns/api/regDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.regDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,814 INFO Mapped "{[/v1/ns/api/regService]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.regService(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,814 INFO Mapped "{[/v1/ns/api/domCount]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.domCount(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,814 INFO Mapped "{[/v1/ns/api/ip4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.ip4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,814 INFO Mapped "{[/v1/ns/api/replaceDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.replaceDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,814 INFO Mapped "{[/v1/ns/api/remvDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.remvDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,814 INFO Mapped "{[/v1/ns/api/remvIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.remvIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,814 INFO Mapped "{[/v1/ns/api/replaceIP4Dom]}" onto public synchronized java.lang.String com.alibaba.nacos.naming.web.ApiCommands.replaceIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,815 INFO Mapped "{[/v1/ns/api/hello]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.hello(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,815 INFO Mapped "{[/v1/ns/api/srvAllIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.srvAllIP(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,815 INFO Mapped "{[/v1/ns/api/updateDom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.updateDom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,815 INFO Mapped "{[/v1/ns/api/updateSwitch]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.updateSwitch(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,815 INFO Mapped "{[/v1/ns/api/addIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.addIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,815 INFO Mapped "{[/v1/ns/api/getDomsByIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getDomsByIP(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,815 INFO Mapped "{[/v1/ns/api/onAddIP4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.onAddIP4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,816 INFO Mapped "{[/v1/ns/api/allDomNames]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.allDomNames(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,816 INFO Mapped "{[/v1/ns/api/serverStatus]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.serverStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,816 INFO Mapped "{[/v1/ns/api/domStatus]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.domStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,816 INFO Mapped "{[/v1/ns/api/checkStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.checkStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,816 INFO Mapped "{[/v1/ns/api/getAllChangeLog]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getAllChangeLog(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,816 INFO Mapped "{[/v1/ns/api/getDomString4MD5]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getDomString4MD5(javax.servlet.http.HttpServletRequest) throws com.alibaba.nacos.naming.exception.NacosException
+
+2018-11-03 14:03:08,816 INFO Mapped "{[/v1/ns/api/distroStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.distroStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,817 INFO Mapped "{[/v1/ns/api/getWeightsByIP]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getWeightsByIP(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,817 INFO Mapped "{[/v1/ns/api/metrics]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.metrics(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,817 INFO Mapped "{[/v1/ns/api/containerNotify]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.containerNotify(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,817 INFO Mapped "{[/v1/ns/api/searchDom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.searchDom(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,817 INFO Mapped "{[/v1/ns/api/responsible]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.responsible(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,817 INFO Mapped "{[/v1/ns/api/addCluster4Dom]}" onto public java.lang.String com.alibaba.nacos.naming.web.ApiCommands.addCluster4Dom(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,817 INFO Mapped "{[/v1/ns/api/domServeStatus]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.domServeStatus(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,817 INFO Mapped "{[/v1/ns/api/getHealthyServerList]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getHealthyServerList(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,818 INFO Mapped "{[/v1/ns/api/getResponsibleServer4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.getResponsibleServer4Dom(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,818 INFO Mapped "{[/v1/ns/api/checkDataConsistence]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.checkDataConsistence(javax.servlet.http.HttpServletRequest) throws java.lang.Exception
+
+2018-11-03 14:03:08,818 INFO Mapped "{[/v1/ns/api/updateClusterConf]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.updateClusterConf(javax.servlet.http.HttpServletRequest) throws java.io.IOException
+
+2018-11-03 14:03:08,818 INFO Mapped "{[/v1/ns/api/reCalculateCheckSum4Dom]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.ApiCommands.reCalculateCheckSum4Dom(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,820 INFO Mapped "{[/v1/ns/raft/get]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.get(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,820 INFO Mapped "{[/v1/ns/raft/delete]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.delete(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,821 INFO Mapped "{[/v1/ns/raft/state]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.state(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,821 INFO Mapped "{[/v1/ns/raft/publish]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.publish(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,821 INFO Mapped "{[/v1/ns/raft/beat]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.beat(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,821 INFO Mapped "{[/v1/ns/raft/onPublish]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.onPublish(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,821 INFO Mapped "{[/v1/ns/raft/vote]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.vote(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,822 INFO Mapped "{[/v1/ns/raft/unSafePublish]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.unSafePublish(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,822 INFO Mapped "{[/v1/ns/raft/getPeer]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.getPeer(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2018-11-03 14:03:08,822 INFO Mapped "{[/v1/ns/raft/reloadDatum]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.reloadDatum(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,822 INFO Mapped "{[/v1/ns/raft/onDelete]}" onto public java.lang.String com.alibaba.nacos.naming.web.RaftCommands.onDelete(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.lang.Exception
+
+2018-11-03 14:03:08,822 INFO Mapped "{[/v1/ns/raft/getAllListeners]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.getAllListeners(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2018-11-03 14:03:08,822 INFO Mapped "{[/v1/ns/raft/getLeader]}" onto public com.alibaba.fastjson.JSONObject com.alibaba.nacos.naming.web.RaftCommands.getLeader(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2018-11-03 14:03:08,825 INFO Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+
+2018-11-03 14:03:08,826 INFO Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+
+2018-11-03 14:03:08,852 INFO Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2018-11-03 14:03:08,852 INFO Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+
+2018-11-03 14:03:08,867 INFO Detected @ExceptionHandler methods in globalExceptionHandler
+
+2018-11-03 14:03:08,867 INFO Detected @ExceptionHandler methods in responseExceptionHandler
+
+2018-11-03 14:03:08,906 INFO Adding welcome page: class path resource [static/index.html]
+
+2018-11-03 14:03:09,027 INFO Registering beans for JMX exposure on startup
+
+2018-11-03 14:03:09,044 INFO Starting ProtocolHandler ["http-nio-8848"]
+
+2018-11-03 14:03:09,045 INFO Using a shared selector for servlet write/read
+
+2018-11-03 14:03:09,088 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2018-11-03 14:03:09,112 INFO Started Nacos in 17.888 seconds (JVM running for 18.778)
+
+2018-11-03 14:03:13,430 ERROR An incompatible version [1.1.33] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+
+2018-11-03 14:03:13,443 INFO Initializing Spring FrameworkServlet 'dispatcherServlet'
+
+2018-11-03 14:03:13,443 INFO FrameworkServlet 'dispatcherServlet': initialization started
+
+2018-11-03 14:03:13,536 INFO FrameworkServlet 'dispatcherServlet': initialization completed in 93 ms
+
